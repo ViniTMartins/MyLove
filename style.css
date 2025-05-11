@@ -1,0 +1,390 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    padding: 0;
+    background-color: rgb(241, 236, 166);
+}
+header{
+    background-color: rgb(43, 78, 131);
+}
+
+.cartaoDeLogin {
+    height: 600px;
+    width: 500px;
+    box-shadow: 2px 15px 43px -11px rgba(0,0,0,0.67);
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 80% 10%;
+    border-radius: 20px;
+    display: grid;
+    color: black;
+    grid-template-columns: 100%;
+    grid-template-rows: 12% 88%;
+    background: #ff8585
+}
+.centralizadoEmColuna {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divinfo {
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+.campoFormulario {
+    width: 20rem;
+    align-items: flex-start !important;
+    border-radius: 1rem;
+    border: 0cm;
+    font-size: 15px;
+}
+
+.cabecalhoCartaoDeLogin {
+    padding: 10px;
+    background-color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 1rem;
+}
+
+.centralizadoTotalmente {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ 
+input {
+    height: 60px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ 
+ 
+div .jogar-pra-cima > div {
+    flex-direction: column !important;
+} 
+
+.jogar-pra-cima {
+    position: relative;
+    bottom: 60px;
+}
+
+.botao-login {
+    height: 45px;
+    width: 100%;
+    background: #ffffff;
+    border: 0cm;
+    border-radius: 5rem;
+    font-size: 25px;
+    margin: 0;
+}   
+
+.mensageminfo {
+    width: 20rem;
+    align-items: flex-start !important;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 10cm;
+    font-size: 15px;
+    margin-top: 3rem;
+}
+
+header{
+    background-color: rgb(255, 145, 126);
+}
+header>nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#mainheader{
+    margin-bottom: 10rem;
+}
+header ul{
+    display: flex;
+    min-width: 300px;
+    justify-content: space-between;
+}
+header ul>li{
+    list-style:none;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 40px;
+}
+a:hover{
+    color: rgb(255, 174, 255);
+}
+.BtnCards{
+    margin-left: 0px;
+}
+
+#foto{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+
+#titulo{
+    color: rgb(255, 255, 255);
+}
+#titulo2{
+    color: rgb(3, 0, 0);
+}
+#principal{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#principal > img{
+    max-width: 1000px;
+    max-height: 890px;
+}
+#principal div{
+    width: 400px;
+}
+
+#principal p{
+    margin-top: 1rem;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+#principal h2{
+    color: rgb(0, 0, 0);
+    font-size: 52px;
+}
+
+#principalPet{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#principalPet > img{
+    max-width: 700px;
+    max-height: 600px;
+    border-radius: 10%;
+}
+#principalPet div{
+    width: 575px;
+}
+
+#principalPet p{
+    margin-top: 1rem;
+    color: rgb(255, 255, 0);
+    font-size: 20px;
+}
+#principalPet h2{
+    color: rgb(255, 255, 0);
+    font-size: 52px;
+}
+
+#Adotanaca{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(39, 50, 73);
+}
+#Adotanaca > img{
+    width: 700px;
+    height: 300px;
+    border-radius: 1rem;
+    margin-left: 5rem;
+    margin-right: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+#Adotanaca div{
+    width: 600px;
+}
+#Adotanaca p{
+    margin-top: 1rem;
+    color: rgb(255, 255, 0);
+    font-size: 20px;
+    margin-bottom: 10rem;
+}
+#Adotanaca h2{
+    margin-top: 10rem;
+    color: rgb(255, 255, 0);
+    font-size: 52px;
+}
+
+#Contato{
+    margin-top: 40px;
+    display: inline-block;
+    background-color: rgb(17, 170, 3);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: 2px  solid;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+#Contato:hover{
+    background-color: rgb(159, 252, 116);
+    color: rgb(255, 255, 255);
+}
+
+#Doar{
+    margin-top: 40px;
+    display: inline-block;
+    background-color: rgb(255, 136, 229);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: 2px  solid;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+#Doar:hover{
+    background-color: rgb(245, 194, 234);
+    color: rgb(255, 255, 255);
+}
+
+#Adotar{
+    margin-top: 40px;
+    margin-left: 4rem;
+    display: inline-block;
+    background-color: rgb(255, 255, 0);
+    padding: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 1rem;
+    color: rgb(81, 151, 255);
+    font-size: 50px;
+    justify-content: space-between;
+}
+#Adotar:hover{
+    background-color: rgb(253, 253, 185);
+}
+
+#Cartoes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(0, 255, 255);
+    border-radius: 1rem;
+    margin: 2rem;
+}
+.cmusicas{
+    background-color: rgb(252, 111, 111);
+}
+
+.card > img{
+    width: 250px;
+    height: 275px;
+    margin-top: 5px;
+    margin-left: 25px;
+    border-radius: 1rem;
+}
+.cardF > a > img{
+    max-width: 400px;
+    max-height: 400px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.card > h3{
+    margin-left: 75px;
+}
+/*.card > div{
+    background-color: rgb(43, 78, 131);
+    color:  rgb(241, 250, 111);
+    padding: 11px;
+    border-radius: 1rem;
+    margin: 5px;
+    text-align: center;
+}*/
+
+.musicas{
+    background-color: rgb(248, 161, 161);
+    color:  rgb(248, 161, 161);
+    padding: 11px;
+    border-radius: 1rem;
+    margin: 5px;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    header>nav,header ul, #principal, #Adotanaca, #principalPet{
+        flex-direction: column;
+    }
+
+    header ul{
+        align-items: center;
+        margin-top: 1rem;
+    }
+    header>nav{
+        margin-bottom: 7rem;
+    }
+    #principal{
+        text-align: center;
+    }
+    #principal > img{
+        margin-bottom: 2rem;
+        width: 390px
+    }
+    #principal div{
+        width: 390px;
+    }
+    
+    #principalPet{
+        text-align: center;
+    }
+    #principalPet > img{
+        margin-bottom: 2rem;
+        width: 390px;
+    }
+    #principalPet div{
+        width: 390px;
+    }
+    
+
+    #Adotanaca{
+        text-align: center;
+    }
+    #Adotanaca > img{
+        margin-bottom: 2rem;
+        width: 390px;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    #Adotanaca div{
+        width: 390px;
+    }
+
+    #Cartoes{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    header{
+        height: 200px;
+    }
+}
